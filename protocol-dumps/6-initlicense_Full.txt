@@ -1,0 +1,23 @@
+POST http://adeactivate.adobe.com/adept/InitLicenseService HTTP/1.1
+Referer: file:///C|/Programme/Adobe/Adobe%20Digital%20Editions/digitaleditions.exe
+x-flash-version: 9,0,1131,27
+Content-Type: application/vnd.adobe.adept+xml
+Content-Length: 503
+User-Agent: Shockwave Flash
+Host: adeactivate.adobe.com
+Pragma: no-cache
+
+<licenseServiceRequest identity="user" xmlns="http://ns.adobe.com/adept">
+  <operatorURL>http://acs.onleihe.de/fulfillment</operatorURL>
+  <nonce>7Uq1rgAAAAA=</nonce>
+  <expiration>2011-07-03T00:29:17-00:00</expiration>
+  <user>urn:uuid:a42f1948-adab-4068-86a2-ea34ac776d9b</user>
+  <signature>LyYDK/YxGTSXtZadQl81YkwShackFNHvsW6L7p4ZK9G8QGC5bBmQg6Gm8jB9C9X718nFXpbTfXppYsXjnJS8oJe9EElYddmTW8HcZuhujqYCUHhG45ahB6EuVl6WvXikhrrMem38mRTbUvsPGh4CsHvwgCHsHmf87ksCgkCq4c0=</signature>
+</licenseServiceRequest>
+HTTP/1.1 200 OK
+Content-Type: application/vnd.adobe.adept+xml
+Content-Length: 45
+Date: Sat, 02 Jul 2011 23:59:18 GMT
+Server: Apache
+
+<success xmlns="http://ns.adobe.com/adept"/>
